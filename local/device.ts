@@ -1,6 +1,10 @@
 import { getPlugin } from './index';
 
-// 获取手机序列号
+/**
+ * 获取手机序列号，安卓10及以上无效
+ * 这里使用的是自定义插件，在另一个项目-cordova-plugin
+ * @returns
+ */
 export const getDeviceSN = () => {
   return new Promise<string>((resolve) => {
     let plugin = getPlugin();
