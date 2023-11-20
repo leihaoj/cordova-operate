@@ -1,5 +1,7 @@
 # cordova 常用插件使用方法,目前只有安卓
 
+# 部分代码使用了 vue3 hook，自行修改奥
+
 # 插件列表
 
 "cordova-android": "^12.0.1",
